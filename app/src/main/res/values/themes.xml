@@ -5,5 +5,5 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Travelbud" parent="Base.Theme.Travelbud" />
+    <style name="Theme.travelbud" parent="Base.Theme.Travelbud" />
 </resources>
