@@ -7,21 +7,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.travel_bud.AddNewTask;
+import com.example.travel_bud.MainActivity;
 import com.example.travel_bud.Model.ToDoModel;
-
-
+import com.example.travel_bud.R;
+import com.example.travel_bud.MainActivity2;
+import com.example.travel_bud.Utils.DatabaseHandler;
 import java.util.List;
 
 public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
 
     private List<ToDoModel> todoList;
     private DatabaseHandler db;
-    private MainActivity activity;
+    private MainActivity2 activity;
 
-    public ToDoAdapter(DatabaseHandler db, MainActivity activity) {
+    public ToDoAdapter(DatabaseHandler db, MainActivity2 activity) {
         this.db = db;
         this.activity = activity;
     }

@@ -1,7 +1,5 @@
 package com.example.travel_bud;
 
-import static androidx.core.content.ContextCompat.startActivity;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,7 +14,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
 
-        final Intent i = new Intent(SplashActivity.this, MainActivity.class);
+        final Intent i = new Intent(SplashActivity.this, MainActivity2.class);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
